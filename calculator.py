@@ -1,6 +1,4 @@
-# Simple Calculator
 
-# Get user input
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
@@ -12,7 +10,6 @@ print("4. Division (/)")
 
 operation = input("Enter the number corresponding to the operation (1/2/3/4): ")
 
-# Perform calculation based on user choice
 if operation == '1':
     result = num1 + num2
     op_symbol = '+'
